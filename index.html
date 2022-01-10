@@ -7,7 +7,53 @@
 </head>
 <body>
 
-	<button type="button">Clique aqui</button>
+	<label for="cep">CEP (somente números):</label><br>
+	<input type="text" name="cep" placeholder="Digite o CEP aqui"><br><br>
+
+	<button type="button" onclick="consultaCep()">Consultar</button><br><br><br>
+
+	<table border="1">
+		<tr>
+			<td>CEP:</td>
+			<td id="showCep"></td>
+		</tr>
+		<tr>
+			<td>Logradouro:</td>
+			<td id="showLogradouro"></td>
+		</tr>
+		<tr>
+			<td>Complemento:</td>
+			<td id="showComplemento"></td>
+		</tr>
+		<tr>
+			<td>Bairro:</td>
+			<td id="showBairro"></td>
+		</tr>
+		<tr>
+			<td>Localidade:</td>
+			<td id="showLocalidade"></td>
+		</tr>
+		<tr>
+			<td>UF:</td>
+			<td id="showUf"></td>
+		</tr>
+		<tr>
+			<td>IBGE:</td>
+			<td id="showIbge"></td>
+		</tr>
+		<tr>
+			<td>GIA:</td>
+			<td id="showGia"></td>
+		</tr>
+		<tr>
+			<td>DDD:</td>
+			<td id="showDdd"></td>
+		</tr>
+		<tr>
+			<td>Siafi:</td>
+			<td id="showSiafi"></td>
+		</tr>
+	</table>
 
 
 	<script src="js/jquery-3.6.0.min.js"></script>
